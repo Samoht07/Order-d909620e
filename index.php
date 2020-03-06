@@ -33,6 +33,9 @@ $coachdata = $pdo->query("SELECT * from series");
                 ?>
           <tr>
                <td>
+                    
+               </td>
+               <td>
                     <?php echo "title: " .  $row['title']; ?>
                </td>
                <td>
